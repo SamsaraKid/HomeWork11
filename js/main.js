@@ -29,7 +29,7 @@ function fr(){
 function fc(){
     document.getElementById('in1').value = '';
     document.getElementById('in2').value = '';
-    document.getElementById('result').value = '';
+    res.innerHTML = '0';
 }
 
 butok.onclick = fr
